@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Notestick</name>
+    <description>Do you like post-its/stick notes? Notestick does it with a pixelated friendly design.</description>
+    <version>1.0.0.2</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.plasmmer.notestick</app-id>
+    <unique-id>mtzbgucbpump</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Facebook" version="1">Facebook</plugin>
+        <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="Twitter" version="1">Twitter</plugin>
+        <plugin author="Scirra" id="XboxLive" version="1">Xbox Live</plugin>
+        <plugin author="Armaldio" id="armaldio_electron" version="1">Electron</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows Store</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Custom</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Electron" sid="968918075340399">
+            <plugin id="armaldio_electron" />
+        </object-type>
+        <object-type name="s" sid="612232210150624">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="346464911994243" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="841786667052912">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="yellow" pingpong="0" repeatcount="1" repeatto="0" sid="972297909669146" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="blue" pingpong="0" repeatcount="1" repeatto="0" sid="789301931687537" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="green" pingpong="0" repeatcount="1" repeatto="0" sid="139212852353524" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="red" pingpong="0" repeatcount="1" repeatto="0" sid="248066423468249" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="orange" pingpong="0" repeatcount="1" repeatto="0" sid="472901232837930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="maroon" pingpong="0" repeatcount="1" repeatto="0" sid="333854648617151" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="pink" pingpong="0" repeatcount="1" repeatto="0" sid="895804875486565" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="purple" pingpong="0" repeatcount="1" repeatto="0" sid="587414721502518" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="gray" pingpong="0" repeatcount="1" repeatto="0" sid="295074823043604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="white" pingpong="0" repeatcount="1" repeatto="0" sid="958523463012096" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\s.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="917603168733849">
+            <plugin id="TextBox" />
+            <instance-variables>
+                <instance-variable name="id" sid="224480011044182" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="295356010432184">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="header" sid="592991818252254">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="793584638424732" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="513141642473096">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="yellow" pingpong="0" repeatcount="1" repeatto="0" sid="371509450582593" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="blue" pingpong="0" repeatcount="1" repeatto="0" sid="627899499022400" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="green" pingpong="0" repeatcount="1" repeatto="0" sid="622664144365483" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="red" pingpong="0" repeatcount="1" repeatto="0" sid="867525721696630" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="orange" pingpong="0" repeatcount="1" repeatto="0" sid="996490421799135" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="maroon" pingpong="0" repeatcount="1" repeatto="0" sid="392241517106313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="pink" pingpong="0" repeatcount="1" repeatto="0" sid="252002157499963" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="purple" pingpong="0" repeatcount="1" repeatto="0" sid="761476602530649" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="gray" pingpong="0" repeatcount="1" repeatto="0" sid="848336859182511" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="white" pingpong="0" repeatcount="1" repeatto="0" sid="858269621325939" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="D:\Documents\Desktop\h (2).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="587722080168685">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Touch" sid="968457665918554">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="menu" sid="187398310551253">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="254684202992390" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="855248983750098">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="254621106296464" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\menu.png">
+                        <collision-poly>
+                            <point x="0.225806" y="0.225806" />
+                            <point x="0.774194" y="0.225806" />
+                            <point x="0.903226" y="0.483871" />
+                            <point x="0.774194" y="0.774194" />
+                            <point x="0.225806" y="0.774194" />
+                            <point x="0.0967742" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="delete" sid="589947550667856">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="907135052561376" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="936807565512104">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344869493551024" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\delete.png">
+                        <collision-poly>
+                            <point x="0.290323" y="0.290323" />
+                            <point x="0.483871" y="0.225806" />
+                            <point x="0.709677" y="0.290323" />
+                            <point x="0.774194" y="0.483871" />
+                            <point x="0.774194" y="0.774194" />
+                            <point x="0.483871" y="0.83871" />
+                            <point x="0.225806" y="0.774194" />
+                            <point x="0.225806" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="plus" sid="443891931643526">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="id" sid="482948826438640" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="434748702020607">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745716010484216" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\plus.png">
+                        <collision-poly>
+                            <point x="0.419355" y="0.419355" />
+                            <point x="0.483871" y="0.16129" />
+                            <point x="0.548387" y="0.451613" />
+                            <point x="0.806452" y="0.483871" />
+                            <point x="0.548387" y="0.548387" />
+                            <point x="0.483871" y="0.806452" />
+                            <point x="0.419355" y="0.580645" />
+                            <point x="0.16129" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="NoteTitle" sid="260968457917679">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="id" sid="169276107478190" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="687060601100586">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="DragDrop" sid="673181895523701">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="back" sid="853313529001946">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416595967636012" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\back.png">
+                        <collision-poly>
+                            <point x="0.225806" y="0.225806" />
+                            <point x="0.483871" y="0.0967742" />
+                            <point x="0.612903" y="0.387097" />
+                            <point x="0.903226" y="0.483871" />
+                            <point x="0.774194" y="0.774194" />
+                            <point x="0.483871" y="0.870968" />
+                            <point x="0.387097" y="0.612903" />
+                            <point x="0.129032" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="settings" sid="172973621448645">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929421851254392" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\settings.png">
+                        <collision-poly>
+                            <point x="0.225806" y="0.225806" />
+                            <point x="0.483871" y="0.0967742" />
+                            <point x="0.774194" y="0.225806" />
+                            <point x="0.806452" y="0.483871" />
+                            <point x="0.774194" y="0.774194" />
+                            <point x="0.483871" y="0.870968" />
+                            <point x="0.322581" y="0.677419" />
+                            <point x="0.193548" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Title" sid="775524040556470">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Pin" sid="496256080321381">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
+        <object-type name="menubtn_place" sid="452722471999283">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457900104322480" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\menubtn-place.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="204183165733041">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Tooltip" sid="395724691971470">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Rename_bx" sid="777178250506074">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="settings_menu" sid="103186575620860">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522525963631922" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501558" original-source="D:\Documents\Desktop\settings_menu.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HTMLIFrame" sid="554271415789892">
+            <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type name="color" sid="328226853777570">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="color" sid="429907472103768" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="yellow" pingpong="0" repeatcount="1" repeatto="0" sid="557862135832646" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="blue" pingpong="0" repeatcount="1" repeatto="0" sid="911506777172748" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="green" pingpong="0" repeatcount="1" repeatto="0" sid="736044459743549" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="red" pingpong="0" repeatcount="1" repeatto="0" sid="992746026945271" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="orange" pingpong="0" repeatcount="1" repeatto="0" sid="744666210919966" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="maroon" pingpong="0" repeatcount="1" repeatto="0" sid="295171417548004" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="pink" pingpong="0" repeatcount="1" repeatto="0" sid="688849714731519" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="purple" pingpong="0" repeatcount="1" repeatto="0" sid="525094300696827" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="gray" pingpong="0" repeatcount="1" repeatto="0" sid="739923840541690" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="white" pingpong="0" repeatcount="1" repeatto="0" sid="462345026007400" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\color.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="colorbtn_place" sid="813205537985377">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782801479695535" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="D:\Documents\Desktop\colorbtn_place.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.488889" y="0" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="1" y="0.488889" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.488889" y="1" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="colorbtn_select" sid="742714115175953">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="118681588785099" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.510204" original-source="D:\Documents\Desktop\colorbtn_select.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.857143" y="0.142857" />
+                            <point x="1" y="0.489796" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.857143" />
+                            <point x="0" y="0.489796" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WindowsStore" sid="571762322905200">
+            <plugin id="win8" />
+        </object-type>
+        <object-type name="Keyboard" sid="501127050541705">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="XboxLive" sid="916378836900511">
+            <plugin id="XboxLive" />
+        </object-type>
+        <object-type name="Audio" sid="243011888692396">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Twitter" sid="556964696624194">
+            <plugin id="Twitter" />
+        </object-type>
+        <object-type name="Facebook" sid="241954310001135">
+            <plugin id="Facebook" />
+        </object-type>
+        <object-type name="share" sid="641789395697887">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="909017294216112" speed="5">
+                    <frame duration="1" hotspotX="0.516129" hotspotY="0.516129" original-source="D:\Documents\Desktop\share.png">
+                        <collision-poly>
+                            <point x="0.129032" y="0.129032" />
+                            <point x="0.483871" y="0.645161" />
+                            <point x="0.83871" y="0.16129" />
+                            <point x="0.774194" y="0.483871" />
+                            <point x="0.612903" y="0.612903" />
+                            <point x="0.483871" y="0.677419" />
+                            <point x="0.0967742" y="0.903226" />
+                            <point x="0.258065" y="0.483871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Electron" uid="0" />
+        <global-instance type="Browser" uid="4" />
+        <global-instance type="Touch" uid="5">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="14" />
+        <global-instance type="WindowsStore" uid="31">
+            <properties>
+                <test-mode>Yes</test-mode>
+                <about-setting>Yes</about-setting>
+                <support-setting>Yes</support-setting>
+                <privacy-setting>Yes</privacy-setting>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="32" />
+        <global-instance type="XboxLive" uid="33" />
+        <global-instance type="Audio" uid="34">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Facebook" uid="36">
+            <properties>
+                <app-id></app-id>
+                <app-secret></app-secret>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

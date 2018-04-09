@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="dragging" sid="621704826831074" static="0" type="number">0</variable>
+        <variable constant="0" name="menu" sid="139172955128485" static="0" type="number">0</variable>
+        <variable constant="0" name="notes" sid="934026258788587" static="0" type="number">1</variable>
+        <variable constant="0" name="color" sid="498242569231512" static="0" type="number">1</variable>
+        <event-block sid="698744088428351">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="991070328479733" type="System" />
+            </conditions>
+            <actions>
+                <action id="14" name="Set background transparent" sid="984339845339237" type="Electron" />
+                <action id="-28" name="Set canvas size" sid="852352655385945" type="System">
+                    <param id="0" name="Width">Browser.ScreenWidth</param>
+                    <param id="1" name="Height">Browser.ScreenHeight</param>
+                </action>
+                <action id="29" name="Set Size" sid="638091197413871" type="Electron">
+                    <param id="0" name="Width">Browser.ScreenWidth</param>
+                    <param id="1" name="Height">Browser.ScreenHeight</param>
+                    <param id="2" name="Animated">0</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="420749083774972" type="TextBox">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="416497119280020" type="TextBox">
+                    <param id="0" name="Property name">&quot;background&quot;</param>
+                    <param id="1" name="Value">&quot;transparent&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="320512658049799" type="Tooltip">
+                    <param id="0" name="Property name">&quot;text-align&quot;</param>
+                    <param id="1" name="Value">&quot;center&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="343271878090064" type="TextBox">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;17px&quot;</param>
+                </action>
+                <action id="10" name="Request fullscreen" sid="514341769743377" type="Browser">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="280698484946951">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="861704138998895" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="595628032700279" type="color">
+                    <param id="0" name="Animation">&quot;yellow&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="985710308077057">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="924552754296981" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="431415050564912" type="color">
+                    <param id="0" name="Animation">&quot;blue&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="938218839163062">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="114996860414225" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="784085455905361" type="color">
+                    <param id="0" name="Animation">&quot;green&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="743559757169095">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="151608226439508" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="974100630793631" type="color">
+                    <param id="0" name="Animation">&quot;red&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="699752341662692">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="646972223602530" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="557829870927082" type="color">
+                    <param id="0" name="Animation">&quot;orange&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="216696434817336">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="508908402881191" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="585914422149492" type="color">
+                    <param id="0" name="Animation">&quot;maroon&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="948484814120963">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="645672275533525" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="313075663061458" type="color">
+                    <param id="0" name="Animation">&quot;pink&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="440646730087401">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="897031917875589" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="587788082602681" type="color">
+                    <param id="0" name="Animation">&quot;purple&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="250468486239045">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="557865214068372" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="369212886024758" type="color">
+                    <param id="0" name="Animation">&quot;gray&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="904689239484367">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="177300977045136" type="color">
+                    <param id="0" name="Instance variable">color</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="313184156599352" type="color">
+                    <param id="0" name="Animation">&quot;white&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="580527814786000">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="440081470664694" type="NoteTitle" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="435574946187431" type="header">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="718445360856785" type="s">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="569970029164595" type="TextBox">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="989439893699594" type="menu">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="807011903796386" type="plus">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="545832529422614" type="delete">
+                    <param id="0" name="Pin to">NoteTitle</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="171699486988687">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="332012058624414" type="NoteTitle" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="1" name="Unpin" sid="608682358299069" type="header" />
+                <action behavior="Pin" id="1" name="Unpin" sid="870178050142522" type="s" />
+                <action behavior="Pin" id="1" name="Unpin" sid="236821374990783" type="TextBox" />
+                <action behavior="Pin" id="1" name="Unpin" sid="377861100059125" type="menu" />
+                <action behavior="Pin" id="1" name="Unpin" sid="482677423208030" type="plus" />
+                <action behavior="Pin" id="1" name="Unpin" sid="296182894963091" type="delete" />
+            </actions>
+        </event-block>
+        <event-block sid="430542170347211">
+            <conditions>
+                <condition id="3" name="On touched object" sid="718899087018403" type="Touch">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="975357721568037" type="System">
+                    <param id="0" name="Variable">menu</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="259537649244621">
+            <conditions>
+                <condition id="3" name="On touched object" sid="375553613150370" type="Touch">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="558556877454839">
+            <conditions>
+                <condition id="3" name="On touched object" sid="864146771357748" type="Touch">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="380136507659813">
+            <conditions>
+                <condition id="3" name="On touched object" sid="294903211835592" type="Touch">
+                    <param id="0" name="Object">back</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="271865254872541">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="836649583384967" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="569177224616227" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="938106764858889" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="990420773766546">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="285076831321537" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="873192998309681" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="472964933215744" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="387599073698213">
+            <conditions>
+                <condition id="3" name="On touched object" sid="339872298191273" type="Touch">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="418486118177494" type="System">
+                    <param id="0" name="Variable">menu</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="930542035251418">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="859451975109005" type="Mouse">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="255760778556150" type="menubtn_place">
+                    <param id="0" name="X">menu.X</param>
+                    <param id="1" name="Y">menu.Y</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="811532913505142" type="menubtn_place">
+                    <param id="0" name="Opacity">25</param>
+                </action>
+                <action id="3" name="Set visible" sid="556835792701650" type="Tooltip">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="267102828716739" type="Tooltip">
+                    <param id="0" name="X">Mouse.X + 15</param>
+                    <param id="1" name="Y">Mouse.Y + 15</param>
+                </action>
+                <action id="0" name="Set text" sid="155449561591564" type="Tooltip">
+                    <param id="0" name="Text">&quot;Menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="752874620792513">
+            <conditions>
+                <condition id="-22" name="Else" sid="905917275620023" type="System" />
+                <condition id="7" inverted="1" name="Cursor is over object" sid="754746167507018" type="Mouse">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="326764240527753" type="Mouse">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="778351015825974" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="677973456270861" type="Mouse">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="897112754584332" type="menubtn_place">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="365606895018894" type="Tooltip">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="371514080703752" type="Tooltip">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="740130725425425" type="menubtn_place">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530893780103911">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="333960315629516" type="Mouse">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="852498870473410" type="menubtn_place">
+                    <param id="0" name="X">plus.X</param>
+                    <param id="1" name="Y">plus.Y</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="564893235040007" type="menubtn_place">
+                    <param id="0" name="Opacity">25</param>
+                </action>
+                <action id="3" name="Set visible" sid="168480720760548" type="Tooltip">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="904698818935710" type="Tooltip">
+                    <param id="0" name="X">Mouse.X + 15</param>
+                    <param id="1" name="Y">Mouse.Y + 15</param>
+                </action>
+                <action id="0" name="Set text" sid="963233895414061" type="Tooltip">
+                    <param id="0" name="Text">&quot;Add new note&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="679923880298536">
+            <conditions>
+                <condition id="-22" name="Else" sid="854764491849394" type="System" />
+                <condition id="7" inverted="1" name="Cursor is over object" sid="407323242549576" type="Mouse">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="252577581444671" type="Mouse">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="602363457184101" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="885224778347001" type="Mouse">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="719974810108425" type="menubtn_place">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="955422814055488" type="Tooltip">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="298489850146576" type="Tooltip">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="718827787849217" type="menubtn_place">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659365088831812">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="208834055405971" type="Mouse">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="273272571228107" type="menubtn_place">
+                    <param id="0" name="X">delete.X</param>
+                    <param id="1" name="Y">delete.Y</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="690478754651913" type="menubtn_place">
+                    <param id="0" name="Opacity">25</param>
+                </action>
+                <action id="3" name="Set visible" sid="466620793143619" type="Tooltip">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="788888776514795" type="Tooltip">
+                    <param id="0" name="X">Mouse.X + 15</param>
+                    <param id="1" name="Y">Mouse.Y + 15</param>
+                </action>
+                <action id="0" name="Set text" sid="377718465276925" type="Tooltip">
+                    <param id="0" name="Text">&quot;Delete note&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="481802638922311">
+            <conditions>
+                <condition id="-22" name="Else" sid="568097012924410" type="System" />
+                <condition id="7" inverted="1" name="Cursor is over object" sid="207188886838854" type="Mouse">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="276346885460540" type="Mouse">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="115099971325624" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="133006994896936" type="Mouse">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="183786674845568" type="menubtn_place">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="377346981089974" type="Tooltip">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="510690305644625" type="Tooltip">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="867910991903303" type="menubtn_place">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="321858404460072">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="656572572867301" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="425961221272734" type="menubtn_place">
+                    <param id="0" name="X">back.X</param>
+                    <param id="1" name="Y">back.Y</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="643329771506656" type="menubtn_place">
+                    <param id="0" name="Opacity">25</param>
+                </action>
+                <action id="3" name="Set visible" sid="517615402194169" type="Tooltip">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="336335340935999" type="Tooltip">
+                    <param id="0" name="X">Mouse.X + 15</param>
+                    <param id="1" name="Y">Mouse.Y + 15</param>
+                </action>
+                <action id="0" name="Set text" sid="620510214832163" type="Tooltip">
+                    <param id="0" name="Text">&quot;Return&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="641865908370079">
+            <conditions>
+                <condition id="-22" name="Else" sid="427400480549860" type="System" />
+                <condition id="7" inverted="1" name="Cursor is over object" sid="799446834028006" type="Mouse">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="408328768309544" type="Mouse">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="115695023431927" type="Mouse">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="302331284892365" type="Mouse">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="980118688696375" type="menubtn_place">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="435274992924118" type="Tooltip">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="785233772436911" type="Tooltip">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="198540414291827" type="menubtn_place">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="877645127709764">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="544826782044627" type="Mouse">
+                    <param id="0" name="Object">settings</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="606504084720057" type="menubtn_place">
+                    <param id="0" name="X">settings.X</param>
+                    <param id="1" name="Y">settings.Y</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="203829496005656" type="menubtn_place">
+                    <param id="0" name="Opacity">25</param>
+                </action>
+                <action id="3" name="Set visible" sid="957276732295677" type="Tooltip">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="297852133102598" type="Tooltip">
+                    <param id="0" name="X">Mouse.X + 15</param>
+                    <param id="1" name="Y">Mouse.Y + 15</param>
+                </action>
+                <action id="0" name="Set text" sid="546036188237732" type="Tooltip">
+                    <param id="0" name="Text">&quot;Settings&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="613300135980497">
+            <conditions>
+                <condition id="-22" name="Else" sid="149482392707327" type="System" />
+                <condition id="7" inverted="1" name="Cursor is over object" sid="194115254030308" type="Mouse">
+                    <param id="0" name="Object">menu</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="339352752005380" type="Mouse">
+                    <param id="0" name="Object">plus</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="509783759936392" type="Mouse">
+                    <param id="0" name="Object">back</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="540535611668329" type="Mouse">
+                    <param id="0" name="Object">delete</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Set opacity" sid="561744416963571" type="menubtn_place">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="737122087671441" type="Tooltip">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="286459731657634" type="Tooltip">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="-2" name="Set Y" sid="886071431975475" type="menubtn_place">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="184392432154645">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="357815457313490" type="System">
+                    <param id="0" name="Variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="608869257424237" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set enabled" sid="798001847176305" type="TextBox">
+                    <param id="0" name="Mode">1</param>
+                </action>
+                <action id="6" name="Set focused" sid="581276354370417" type="TextBox" />
+                <action id="-2" name="Set Y" sid="659058865862594" type="settings_menu">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="122395340183658" type="settings_menu">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="437527772037034" type="menu">
+                    <param id="0" name="X">s.X - 144</param>
+                    <param id="1" name="Y">s.Y - 144</param>
+                </action>
+                <action id="-15" name="Set visible" sid="792209630020346" type="menu">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="485845251122800" type="NoteTitle">
+                    <param id="0" name="X">s.X - 144 - 16 + 31</param>
+                    <param id="1" name="Y">s.Y - 144 - 16</param>
+                </action>
+                <action id="-15" name="Set visible" sid="498400140130089" type="NoteTitle">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="555376336035315" type="plus">
+                    <param id="0" name="X">s.X - - 109</param>
+                    <param id="1" name="Y">s.Y - 144</param>
+                </action>
+                <action id="-15" name="Set visible" sid="855853220703334" type="plus">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="268371844168948" type="delete">
+                    <param id="0" name="X">s.X - -145</param>
+                    <param id="1" name="Y">s.Y - 144</param>
+                </action>
+                <action id="-15" name="Set visible" sid="425178419605674" type="delete">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-2" name="Set Y" sid="767812423204103" type="Title">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="452516086833435" type="Title">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="139951003433483" type="Rename_bx">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="3" name="Set visible" sid="924772587012493" type="Rename_bx">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="368213337808267" type="back">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="902847462994431" type="back">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="808343331696104" type="settings">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="633574753814770" type="settings">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="444797327478226">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="657806050528460" type="System">
+                    <param id="0" name="Variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="315512049831392" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set visible" sid="723988419318681" type="HTMLIFrame">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="192819325732308" type="HTMLIFrame">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="4" name="Set enabled" sid="194855196495619" type="TextBox">
+                    <param id="0" name="Mode">0</param>
+                </action>
+                <action id="3" name="Set visible" sid="399465669177997" type="TextBox">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="255139825422261" type="settings_menu">
+                    <param id="0" name="X">s.X</param>
+                    <param id="1" name="Y">s.Y</param>
+                </action>
+                <action id="-15" name="Set visible" sid="373284450404194" type="settings_menu">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-2" name="Set Y" sid="588447965384027" type="menu">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="652522030892492" type="menu">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="791322550994112" type="NoteTitle">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="129314780803516" type="NoteTitle">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="128880008715926" type="plus">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="237242737241209" type="plus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="310890747832014" type="delete">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="497638939308870" type="delete">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set text" sid="115462519966257" type="Title">
+                    <param id="0" name="Text">&quot;Rename:&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="493380540374687" type="Title">
+                    <param id="0" name="X">s.X - 144 - 16 + 31</param>
+                    <param id="1" name="Y">s.Y - 144 - 16</param>
+                </action>
+                <action id="-15" name="Set visible" sid="949215373594437" type="Title">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="0" name="Set text" sid="145923977811578" type="Rename_bx">
+                    <param id="0" name="Text">NoteTitle.Text</param>
+                </action>
+                <action id="-3" name="Set position" sid="482097933904132" type="Rename_bx">
+                    <param id="0" name="X">s.X - 144 - 16 + 31 + 80</param>
+                    <param id="1" name="Y">s.Y - 144 - 16 + 2</param>
+                </action>
+                <action id="3" name="Set visible" sid="333270780377142" type="Rename_bx">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="528574199710503" type="back">
+                    <param id="0" name="X">s.X - 144</param>
+                    <param id="1" name="Y">s.Y - 144</param>
+                </action>
+                <action id="-15" name="Set visible" sid="744430054057323" type="back">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="357272066441134" type="settings">
+                    <param id="0" name="X">s.X - -145</param>
+                    <param id="1" name="Y">s.Y - 144</param>
+                </action>
+                <action id="-15" name="Set visible" sid="143042574553398" type="settings">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="413819440700752">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="645699958996655" type="System">
+                    <param id="0" name="Variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="487316380435233" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="259648719741476" type="Title">
+                    <param id="0" name="Text">&quot;Settings&quot;</param>
+                </action>
+                <action id="3" name="Set visible" sid="657323990272006" type="TextBox">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="655923495817258" type="settings_menu">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="938714051430388" type="settings_menu">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="473082960985304" type="Rename_bx">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="3" name="Set visible" sid="766661888071975" type="Rename_bx">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="470382494533101" type="settings">
+                    <param id="0" name="Y">-1000</param>
+                </action>
+                <action id="-15" name="Set visible" sid="530391884672452" type="settings">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="0" name="Set visible" sid="197564502821432" type="HTMLIFrame">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Set position" sid="716183414955858" type="HTMLIFrame">
+                    <param id="0" name="X">TextBox.X</param>
+                    <param id="1" name="Y">TextBox.Y</param>
+                </action>
+                <action id="24" name="Get elements" sid="338869066631223" type="HTMLIFrame">
+                    <param id="0" name="ID/Class">&quot;#version&quot;</param>
+                    <param id="1" name="Set">&quot;Version &quot; &amp; projectversion</param>
+                    <param id="2" name="Append">&quot;&quot;</param>
+                </action>
+                <action id="24" name="Get elements" sid="474947680649664" type="HTMLIFrame">
+                    <param id="0" name="ID/Class">&quot;#notecount&quot;</param>
+                    <param id="1" name="Set">&quot;Notes: &quot; &amp; notes</param>
+                    <param id="2" name="Append">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

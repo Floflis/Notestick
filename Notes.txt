@@ -1,0 +1,9 @@
+conffirmation when deleting note
+when close the last note, cl the app
+active and inactive notes
+Can resize the note
+
+settings:
+font size
+font f
+font color
